@@ -38,6 +38,6 @@ After cleaning the data, it is loaded into an SQL Server database for querying.
 ### 4. SQL Queries for Insights
 SQL queries will involve JOIN, GROUP BY, HAVING, ROW_NUMBER(), and CASE WHEN for advanced data operations.
 ### 5. Streamlit App for Real-Time Insights
-Streamlit is used to create an interactive dashboard for displaying data and insights. The following steps are followed:
+Streamlit is used to create an interactive dashboard for displaying data and insights.
 ## Conclusion
 This project showcases how to extract meaningful insights from sales data using Python, SQL, and Streamlit. By identifying key trends, top-performing products, and potential areas for growth, businesses can make informed decisions to optimize their sales strategies.
