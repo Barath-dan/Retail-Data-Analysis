@@ -1,7 +1,7 @@
 # Retail-Data-Analysis
 
 ## Project Overview
-This project aims to analyze and optimize sales performance by identifying key trends, top-performing products, and growth opportunities using a dataset of sales transactions. We focus on extracting insights, calculating key performance indicators (KPIs), and building a data pipeline that integrates SQL, Python, and Streamlit.
+This project aims to analyze and optimize sales performance by identifying key trends, top-performing products, and growth opportunities using a dataset of sales transactions. We focus on extracting insights, calculating key performance indicators (KPIs), and building a data pipeline that integrates SQL, Python, and Streamlit with AI integration.
 ## Objectives
 - Identify Key Revenue and Profit Drivers: Analyze products and categories contributing the most to revenue and profit.
 - Identify Key performing regions.
@@ -22,9 +22,10 @@ This project aims to analyze and optimize sales performance by identifying key t
 ### Database Integration
 - SQL Server: For storing and querying large datasets.
 - Primary/Foreign Keys: Used for relational queries.
-### Data Analysis & Visualization
-- Streamlit: For displaying real-time data, charts, and insights.
-- Matplotlib/Plotly: For data visualization.
+### Data Analysis
+- Streamlit
+### Vanna AI Integration
+- Vanna AI: Integrates with the application to generate SQL queries from natural language user input. This allows users to ask business-related questions in plain language, and Vanna AI converts these queries into SQL syntax, which can then be executed against the database.
 ## Project Workflow
 ### 1. Data Extraction
 The raw dataset is downloaded from Kaggle using the Kaggle API.
@@ -39,5 +40,7 @@ After cleaning the data, it is loaded into an SQL Server database for querying.
 SQL queries will involve JOIN, GROUP BY, HAVING, ROW_NUMBER(), and CASE WHEN for advanced data operations.
 ### 5. Streamlit App for Real-Time Insights
 Streamlit is used to create an interactive dashboard for displaying data and insights.
+### 6. Vanna AI for Custom Query Generation
+Vanna AI integrated in Streamlit App. It enables users to generate SQL queries by simply inputting business-related questions. The AI converts these questions into SQL queries, which are then executed on the database. This feature allows non-technical users to interact with the data in a more intuitive way.
 ## Conclusion
-This project showcases how to extract meaningful insights from sales data using Python, SQL, and Streamlit. By identifying key trends, top-performing products, and potential areas for growth, businesses can make informed decisions to optimize their sales strategies.
+By integrating these technologies, businesses can optimize their sales strategies by identifying key trends, top-performing products, and growth opportunities. The addition of AI further empowers users to generate custom SQL queries with ease, making the application more user-friendly and accessible.
