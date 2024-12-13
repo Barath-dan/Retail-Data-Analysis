@@ -2,6 +2,9 @@
 
 ## Project Overview
 This project aims to analyze and optimize sales performance by identifying key trends, top-performing products, and growth opportunities using a dataset of sales transactions. We focus on extracting insights, calculating key performance indicators (KPIs), and building a data pipeline that integrates SQL, Python, and Streamlit with AI integration.
+
+![](https://github.com/Barath-dan/Retail-Data-Analysis/blob/main/asset/thmb2.png)
+
 ## Objectives
 - Identify Key Revenue and Profit Drivers: Analyze products and categories contributing the most to revenue and profit.
 - Identify Key performing regions.
