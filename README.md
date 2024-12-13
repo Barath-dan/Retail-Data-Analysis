@@ -29,6 +29,8 @@ This project aims to analyze and optimize sales performance by identifying key t
 - Streamlit
 ### Vanna AI Integration
 - Vanna AI: Integrates with the application to generate SQL queries from natural language user input. This allows users to ask business-related questions in plain language, and Vanna AI converts these queries into SQL syntax, which can then be executed against the database.
+### Hosting
+- AWS RDS: The project is hosted on AWS RDS (Relational Database Service) for scalable and secure database management. AWS RDS allows for easy deployment, backup, and scaling of the SQL Server database, ensuring high availability and reliability of the application.
 ## Project Workflow
 ### 1. Data Extraction
 The raw dataset is downloaded from Kaggle using the Kaggle API.
