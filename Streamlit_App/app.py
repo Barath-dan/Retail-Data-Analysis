@@ -156,7 +156,8 @@ def database_connection():
             host=st.secrets["mysql"]["host"],  
             user=st.secrets["mysql"]["user"],  
             password=st.secrets["mysql"]["password"], 
-            database=st.secrets["mysql"]["database"]  
+            database=st.secrets["mysql"]["database"],  
+            port=st.secrets["mysql"]["port"]
         )
         return connection
     except connector.Error as err:
